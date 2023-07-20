@@ -1,3 +1,8 @@
+# A-Random-Quote-Machine
+
+This project creates a webpage that generates a random quote each time the user clicks on a button.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
