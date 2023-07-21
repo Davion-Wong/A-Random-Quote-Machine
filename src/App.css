@@ -1,5 +1,63 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  padding: 3em;
+  border: none;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 50px 30px 10px 3px rgba(0, 0, 0, 0.1), 
+              10px 4px 6px -2px rgba(0, 0, 0, 0.05);              
+  background: linear-gradient(45deg, #cb99c5, #c2c9cd);
+  max-width: 80%;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 2em;
+  min-height: 60%;
+  height: 20%;
+  position: absolute;
+}
+
+#quoteContent {
+  position: relative;
+  height: 50%;
+}
+
+#another-quote {
+  background-color: #6c63ff;
+  border: none;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  font-size: 20px;
+  margin: 45px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+#another-quote:hover {
+  background-color: #4834d4;
+}
+
+#text {
+  margin-bottom: 0;
+}
+
+#tweet-quote {
+  display: inline-block;
+  width: 5%;
+  border-radius: 50%;
+  background-color: #00acee;
+  color: white;
+  padding: 15px 15px;
+  margin: 20px;
 }
 
 .App-logo {
